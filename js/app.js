@@ -1,7 +1,11 @@
-// JS goes here
-// OK I'LL try
-var location = {
+/*locations
+Hours of operation
+MinMax Values for customers, minMax sales by cup and minMax sales by bag.
+var cupsSales = ((m<=N<=M)(anticipated # of customers for the hour))
+var bagSales = ((m<=N<=M)(anticipated # of customers for the hour))*/
+var location = function(){
   site: [pike-place-market, capitol-hill, seattle-public-library, south-lake-union, sea-tac-airport, website-sales],
+  hours: ['6:00am', '7:00am', '8:00am', '9:00am', '10:00am', '11:00am', '12:00pm', '1:00pm', '2:00pm', '3:00pm', '4:00pm', '5:00pm', '6:00pm', '7:00pm', '8:00pm']
   locate function()
 
 }
@@ -26,12 +30,5 @@ var poundspercust = {
 var hoursofoperation = {
   hours: ['6:00am', '7:00am', '8:00am', '9:00am', '10:00am', '11:00am', '12:00pm', '1:00pm', '2:00pm', '3:00pm', '4:00pm', '5:00pm', '6:00pm', '7:00pm', '8:00pm'],
   time function()
-
-}
-
-var customersperday = {
-  color: 'green',
-  sizes: [4, 6, 10],
-  says function()
 
 }
